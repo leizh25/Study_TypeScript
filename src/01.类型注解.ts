@@ -13,7 +13,7 @@ let b: number
 let c: boolean
 a = "hello"
 
-function greet(name:string, times:number):string {
+function greet(name: string, times: number): string {
     const str = `你好 ${name}`
     for (let i = 0; i < times; i++) {
         console.log(str);
@@ -22,4 +22,5 @@ function greet(name:string, times:number):string {
     return str
 }
 
-greet("孙悟空",6)
+greet("孙悟空", 6)
+export { }
