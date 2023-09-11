@@ -5,5 +5,6 @@
         "noEmitOnError": true, //有类型错误时不生成js代码
         "target": "ESNext",
         // "noImplicitAny": false, //是否对函数中隐式的any类型报错
+        "strictPropertyInitialization": true, //
     }
 }
