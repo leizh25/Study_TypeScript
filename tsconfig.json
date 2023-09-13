@@ -6,6 +6,7 @@
         "target": "ESNext",
         // "noImplicitAny": false, //是否对函数中隐式的any类型报错
         "strictPropertyInitialization": true, //
-        "strictNullChecks":true //严格的空值检查
+        "strictNullChecks":true, //严格的空值检查
+        "strictFunctionTypes": true, 
     }
 }
