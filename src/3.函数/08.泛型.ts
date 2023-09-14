@@ -13,6 +13,6 @@ interface MyInterface<T> {
     get(): T
 }
 class MyClass<T>{
-    property: T
+    // property: T
 }
 type MyType<T> = T
