@@ -7,6 +7,8 @@ export { }
              所以在静态方法中不能访问实例属性(方法)
             在静态方法中this就是当前的类
         静态属性可以通过#设置为私有,设置之后只能在内部访问
+
+        静态属性不能使用类的泛型
 */
 
 class MyClass {
@@ -32,3 +34,11 @@ class MyClass {
 
 MyClass.myStaticMethod();
 // MyClass.myStaticProperty
+
+class Person<T>{
+    name: T
+    // static staticProp: T  //不能使用
+    constructor(name: T) {
+        this.name = name;
+    }
+}
