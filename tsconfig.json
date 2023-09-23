@@ -5,7 +5,7 @@
         "noEmitOnError": true, //有类型错误时不生成js代码
         "target": "ESNext",
         // "noImplicitAny": false, //是否对函数中隐式的any类型报错
-        "strictPropertyInitialization": true, //
+        "strictPropertyInitialization": true, //严格要求属性必须初始化
         "strictNullChecks": true, //严格的空值检查
         "strictFunctionTypes": true, //严格检查函数参数类型
         "noImplicitThis": true, //严格禁止隐式this类型
