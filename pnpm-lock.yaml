@@ -11,6 +11,9 @@ dependencies:
   jquery:
     specifier: ^3.7.1
     version: 3.7.1
+  reflect-metadata:
+    specifier: ^0.1.13
+    version: 0.1.13
 
 packages:
 
@@ -26,4 +29,8 @@ packages:
 
   /jquery@3.7.1:
     resolution: {integrity: sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==}
+    dev: false
+
+  /reflect-metadata@0.1.13:
+    resolution: {integrity: sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==}
     dev: false
